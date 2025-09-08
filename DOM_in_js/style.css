@@ -1,0 +1,50 @@
+/* body {
+    background-color: coral;
+}
+
+
+.heading {
+    color: blue;
+    background-color: yellow;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: black;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 1px;
+} */
+
+
+/* .box {
+    height: 150px;
+    width: 150px;
+    background-color: violet;
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+    color: black;
+} */
+
+/* #box {
+    height: 150px;
+    width: 150px;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+} */
+
+.content {
+    /* background-color: orange; */
+    color: black;
+}
+
+.newClass {
+    background-color: violet;
+}
