@@ -41,12 +41,12 @@ console.log(typeof Temperature);
 
 
 // functions are represented as:
-const myfunc =function() {
-    console.log("Sushil");
+// const myfunc =function() {
+//     console.log("Sushil");
     
-}
+// }
 
-myfunc()
+// myfunc()
 
 
 
