@@ -177,11 +177,110 @@ heading.innerText = "Welcome to sushil's website"
 
 
 // question 2:-
-let para = document.querySelector('p');
+// let para = document.querySelector('p');
 
 // para.setAttribute('class', 'newClass')
 
 // you noticed above how newclass overrides previous class we can solve this problem using classlist concept
 
-para.classList.add('newClass')
-para.classList.remove('newClass')
+// para.classList.add('newClass')
+// para.classList.remove('newClass')
+
+
+// function f1() {
+//     alert("You've clicked a button")
+// }
+
+
+// let btn = document.getElementById('btn')
+
+// btn.addEventListener('click', () => {
+//     alert("You've clicked again do you have any query?")
+// })
+
+
+
+
+// let para = document.getElementById('para')
+
+// para.addEventListener('mouseover', () => {
+//     para.innerText = "This is first victory i have find my dreamjob!🔥"
+// })
+
+// para.addEventListener('mouseleave', ()=> {
+//     para.innerText = "This is my comeback☠️"
+// })
+
+
+
+// let parent = document.getElementById('parent')
+// console.log(parent.firstElementChild);
+
+// console.log(parent.firstElementChild.nextElementSibling);
+
+// console.log(parent.lastElementChild);
+
+
+
+
+
+
+
+// getting and setting element in js
+
+let myh1 = document.getElementById('head')
+
+// console.log(myh1.getAttribute('id'));
+// console.log(myh1.getAttribute('class'));
+// console.log(myh1.getAttribute('src'));
+
+
+function addcss() {
+    myh1.setAttribute('class', 'sub');
+}
+
+function rmvcss() {
+    myh1.removeAttribute('class')
+}
+
+// console.log(myh1.hasAttribute('class'));
+// console.log(myh1.hasAttribute('id'));
+
+
+// there are two ways to add css to attributes
+
+let mydiv = document.getElementById('d1')
+// first way
+// mydiv.setAttribute('style', 'background-color: yellow; color:red; text-align:center')
+
+// second way
+// mydiv.style.cssText = 'color:orange; background-color:black; padding:10px; text-align:center;'
+
+
+
+// focus and blurr
+let inp = document.getElementById('txt')
+
+
+// focus in js:-
+
+inp.addEventListener('focus' , () =>{
+    inp.style.cssText = "background-color: lightblue; color:blue; border:2px solid black"
+})
+
+// blur in js:-
+inp.addEventListener('blur', ()=> {
+    inp.style.cssText = 'background-color:white;'
+})
+
+inp.addEventListener('change' , (e) => {
+    console.log(e.target.value);
+    
+})
+
+
+let select = document.getElementById('select');
+select.addEventListener('change',(event) => {
+    let color = event.target.value
+    document.body.style.cssText =  `background-color: ${color}`
+})

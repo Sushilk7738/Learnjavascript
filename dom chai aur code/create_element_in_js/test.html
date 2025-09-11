@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM2</title>
+</head>
+<body style="background-color: #212121; color:#fff">
+    
+</body>
+
+    <script>
+        // we can create attributes using javascript
+
+        
+        function f1(){
+
+            const div = document.createElement('div')
+        console.log(div)
+        
+        // we can give them class and id also through just javascript
+        div.className = 'main'
+        div.id = Math.round(Math.random() * 10 + 1) 
+        div.setAttribute('title', 'CodeWithSushil')
+        
+        // we can give attribute a style also.
+        div.style.backgroundColor = "green"
+        div.style.padding ="15px"
+        
+        // div.innerText = "Sushil"
+        const addText = document.createTextNode("Sushil")
+
+        div.appendChild(addText)
+
+        document.body.appendChild(div)
+
+            
+        }
+
+        f1()
+
+        
+
+        
+
+
+
+        
+    </script>
+
+</html>
