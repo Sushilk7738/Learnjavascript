@@ -60,7 +60,7 @@
 
 
 // concatenation in string
-let s = "Sushil"
+// let s = "Sushil"
 // let n = "ushil"
 
 // console.log(s.concat(n));
@@ -86,4 +86,66 @@ let s = "Sushil"
 
 // console.log(`@${name}${name.length}`);
 
+
+
+// const name = "Sushil"
+
+// const repoCount = 50
+
+// console.log(name +" "+ repoCount + " repo on github acc.");
+
+
+// by String interpolation :-
+
+// console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+
+// there is another way to declare a string in javascript
+
+// const gameName = new String('Sushil-k')
+
+// console.log(gameName[0]);
+// console.log(gameName.__proto__);
+
+
+// console.log(gameName.length);
+
+// console.log(gameName.toUpperCase());
+
+// console.log(gameName.charAt(1));
+// console.log(gameName.indexOf('h'));
+
+// const newStr = gameName.substring(0,4)
+// console.log(newStr);
+
+// const otrStr = gameName.slice(-1, 4)
+// console.log(otrStr);
+
+// difference between substring and slice they both sliceing string but in slice we can use negative index so it stands
+// different.
+
+// const anthrStr = "             Sushil.    "
+// console.log(anthrStr);
+
+// console.log(anthrStr.trim());
+
+// console.log(anthrStr.trimEnd());
+// console.log(anthrStr.trimStart());
+
+
+
+// const url = 'https://Sushil.com/sushil%20k'
+
+// upd_url = url.replace('%20', '-')
+// console.log(upd_url);
+
+// console.log(url.includes('k'));
+
+
+// const newOne = "Sushil kamble is Software Engineer."
+
+// console.log(newOne.split(" "));
+
+// console.log(newOne.bold());
+
+// console.log(newOne.fixed());
 
