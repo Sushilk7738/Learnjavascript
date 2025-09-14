@@ -171,3 +171,94 @@
 // console.log(companies);
 
 
+
+// Array
+const myArray = [0, 2, 1 , 3 , 4, 5, 6, true, 'SUSHIL']
+const myHeroes = ["Shaktimaan", "naagraj"]
+
+const newArray = new Array("Sushil", "Sheetal")
+// console.log(newArray);
+
+// console.log(myArray[7]);
+
+// newArray.push("Pooja")
+// console.log(newArray);
+// newArray.pop()
+// console.log(newArray);
+// newArray.unshift("Pogo")
+// console.log(newArray);
+// newArray.shift()
+
+
+// console.log(newArray.includes(9));
+
+// console.log(newArray.indexOf("Sheetal"));
+
+// console.log(newArray);
+
+// const newArr = myHeroes.join()
+// console.log(myHeroes);
+// console.log(typeof newArr);
+
+
+//Slice and splice in array.
+
+// console.log('S ', myArray);
+
+// const myn1 = myArray.slice(1, 3);
+// console.log(myn1);
+
+// console.log('K ', myArray);
+
+// const myn2 = myArray.splice(1, 3);
+// console.log('C ', myArray);
+
+// console.log(myn2);
+
+
+
+const marvel_heros = ['thor', 'Ironman', 'Spiderman']
+
+const Dc_che_gabde = ['Superman', 'flash', 'Batman']
+
+// marvel_heros.push(Dc_che_gabde)
+
+// console.log(marvel_heros);
+// console.log(marvel_heros[3][2]);
+
+// const all = marvel_heros.concat(Dc_che_gabde)
+// console.log(all);
+
+// we can do same with using spread operator.
+
+const all_heros = [...marvel_heros, ...Dc_che_gabde, ...myArray]
+
+// console.log(all_heros);
+
+const atrarray = [1,2,3,[4,5,6],7, [8,9], [5,6,7]]
+
+const real_atrarray = atrarray.flat(Infinity)
+
+// console.log(real_atrarray);
+
+
+
+// we can verify is it array or not?
+
+console.log(Array.isArray('Sushil'))
+
+// we can convert it into array above string
+
+console.log(Array.from("Sushil"));
+
+console.log(Array.from({name: 'Sushil'}));  //interesting
+
+let score1 = 100;
+let score2 = 200;
+let score3 = 300;
+
+console.log(Array.of(score1, score2, score3));
+
+
+
+
