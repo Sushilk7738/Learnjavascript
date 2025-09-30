@@ -119,7 +119,7 @@ guessing the game number until the user enters correct value.
 // sum = 0
 // for (let i = 0; i <= 10; i++){
 //     sum = sum + i;
-    
+
 // }
 // console.log('sum = ', sum);
 
@@ -160,11 +160,11 @@ guessing the game number until the user enters correct value.
 // let num = Number(prompt("Enter number: "))
 // fact = 1
 // for (let i = 1; i <=num; i++){
-    //     fact *= i
-    // }
-    
-    // console.log(`Factorial of ${num} is ${fact}`);
-    
+//     fact *= i
+// }
+
+// console.log(`Factorial of ${num} is ${fact}`);
+
 // i = 1
 // while (i <= num) {
 //     fact *=i
@@ -208,3 +208,96 @@ guessing the game number until the user enters correct value.
 //     sum += Number(n[i]); 
 // }
 // console.log('Sum of digits: ', sum);
+
+
+
+
+
+
+
+// for (let i = 0; i <= 10 ; i++) {
+//     const element = i;
+//     console.log(element);
+// }
+
+
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`Outer loop value ${i}`);
+
+//     for (let j = 1; j <= 10; j++) {
+//         // console.log(`Innner loop value ${j} and inner loop is ${i}`);
+
+//         console.log(i + "X" + j + "=" +i*j);
+        
+//     }
+// }
+
+
+
+
+// let myArr = ["sushil" , "yash", "shailesh"]
+
+// for (let i = 0; i < myArr.length; i++) {
+//     const element = myArr[i];
+//     console.log(element);
+// }
+
+
+
+// for (let i = 1; i <= 10; i++) {
+    
+//     if (i == 5) {
+//         console.log(`Detected the culprit ${i}`);
+//         break
+//     }
+//     console.log(i);
+// }
+
+
+
+
+
+// while and do-while loop
+
+// i = 0
+
+// while (i <=10){
+//     console.log(`the value of i is ${i}`);
+//     i +=2;
+// }
+
+
+// let myArr = ["Sushil", "Sheetal", "Pooja"]
+
+// let i = 0
+// while(i< myArr.length){
+//     console.log(`The value of myArr: ${myArr[i]}`);
+//     i++;
+// }
+
+
+// let score = 1
+
+// do {
+//     console.log(`Score is ${score}`);
+//     score++;
+// } while (score <=10);
+
+
+// let i = 1
+
+// while(i<=10){
+//     console.log(i);
+//     i++
+// }
+
+
+// let i = 1
+// totalSum = 0
+// while(i<=100){
+//     totalSum = totalSum + i
+//     i++;
+// }
+
+// console.log(`The total sum is ${totalSum}`);
+

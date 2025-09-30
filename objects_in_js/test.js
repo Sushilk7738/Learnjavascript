@@ -130,8 +130,3 @@ console.log(tutor);
 const {coursename: crsname} = course;
 console.log(crsname);
 
-{
-    "name": "Sushil",
-    "coursename": 'JavascriptbySushil',
-    "price" : 'free',
-}

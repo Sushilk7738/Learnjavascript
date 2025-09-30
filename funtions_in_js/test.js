@@ -252,3 +252,90 @@
 // })
 
 // console.log("Product",s);
+
+
+function saymyName() {
+
+    console.log("S");
+    console.log("U");
+    console.log("S");
+    console.log("H");
+    console.log("I");
+    console.log("L");
+    console.log("========================");
+
+}
+
+// saymyName()
+
+// let a = Number(prompt('Enter number'));
+// let b = Number(prompt('Enter number'));
+
+// function addTwoNumbers(a,b){
+//     console.log("The addition is:",a + b);
+// }
+
+// const sum =addTwoNumbers(a,b)
+// console.log(sum);
+
+
+
+function addnos(a, b) {
+    // let Result = a + b;
+    // return Result;
+
+    return a + b;
+
+}
+
+const result = addnos(5, 3);
+// console.log('Result is: ', result);
+
+
+
+// function loginUserMessage(username = "Mike") {
+    // if (username === undefined) {
+    //     console.log('Please enter your name.');
+    //     return
+    // } 
+    
+    // we can write this same as follows
+//     if (!username){
+//         console.log('Please enter your name.');
+//         return
+//     }
+//     return `${username} just logged in.`
+// }
+// console.log(loginUserMessage("Sushil"))
+
+
+
+function CalculateCartPrice(...nums) {
+    return nums;
+}
+// console.log(CalculateCartPrice(100,200,300))
+
+
+const user = {
+    id : 7,
+    user_name : "Sushil",
+}
+
+function handleObject(otherObject) {
+    console.log(`Usename is ${otherObject.user_name} and your id is: '${otherObject.id}'`);
+}
+
+// handleObject(user)
+
+// handleObject({
+//     id : 121,
+//     user_name: "Mike"
+// })
+
+
+// const myArray = [200,400,600,900]
+
+// function printSecondValue(getArray) {
+//     return getArray[1];
+// }
+// console.log(printSecondValue([200,500,600]));
