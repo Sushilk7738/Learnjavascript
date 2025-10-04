@@ -264,23 +264,26 @@ let inp = document.getElementById('txt')
 
 // focus in js:-
 
-inp.addEventListener('focus' , () =>{
-    inp.style.cssText = "background-color: lightblue; color:blue; border:2px solid black"
-})
+// inp.addEventListener('focus' , () =>{
+//     inp.style.cssText = "background-color: lightblue; color:blue; border:2px solid black"
+// })
 
-// blur in js:-
-inp.addEventListener('blur', ()=> {
-    inp.style.cssText = 'background-color:white;'
-})
+// // blur in js:-
+// inp.addEventListener('blur', ()=> {
+//     inp.style.cssText = 'background-color:white;'
+// })
 
-inp.addEventListener('change' , (e) => {
-    console.log(e.target.value);
+// inp.addEventListener('change' , (e) => {
+//     console.log(e.target.value);
     
-})
+// })
 
 
-let select = document.getElementById('select');
-select.addEventListener('change',(event) => {
-    let color = event.target.value
-    document.body.style.cssText =  `background-color: ${color}`
-})
+// let select = document.getElementById('select');
+// select.addEventListener('change',(event) => {
+//     let color = event.target.value
+//     document.body.style.cssText =  `background-color: ${color}`
+// })
+
+
+
