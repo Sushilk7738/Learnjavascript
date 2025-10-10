@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Events</title>
+</head>
+
+<body style="background-color: #414141; color:aliceblue">
+    <h2>Amazing creatures</h2>
+    <ul id="images">
+        <li><img width="200px" height="150px" id="photoshop"
+                src="https://images.pexels.com/photos/1921336/pexels-photo-1921336.jpeg" alt="photoshop"></li>
+        <li><img width="200px" id="beauty" src="https://images.pexels.com/photos/19797385/pexels-photo-19797385.jpeg"
+                alt="photoshop"></li>
+        <li><img width="200px" height="150px" id="nature"
+                src="https://images.pexels.com/photos/2466608/pexels-photo-2466608.jpeg" alt="photoshop"></li>
+        <li><img width="200px" id="actress" src="https://images.pexels.com/photos/1191090/pexels-photo-1191090.jpeg"
+                alt="photoshop"></li>
+        <li><a style="color: aliceblue;" href="https://google.com" id="google">Google</a></li>
+    </ul>
+</body>
+<script>
+    //document.getElementById('nature').onclick = function(){
+    //    alert('nature viewed')
+    //}
+
+    //this above approch will work but will give u limitation of functionalities.
+
+    //by events it will make more optimized.
+    //document.getElementById('nature').addEventListener('mouseover', function(){
+    //    alert('nature viewed')
+    //}, false)
+
+
+    //by eventfuntion Object
+
+    //document.querySelector('#nature').addEventListener('click', function(e){
+    //    console.log(e.timeStamp)
+    //},false)
+
+
+    /* document.getElementById('images').addEventListener('click', function (e) {
+        console.log('Clicked inside of ul')
+    }, false)
+
+
+    document.querySelector('#actress').addEventListener('click', function (e) {
+        console.log('Clicked on gorgeous lady')
+        e.stopPropagation()
+    }, false)
+
+
+    document.getElementById('google').addEventListener('click', function(e){
+        e.preventDefault()
+        e.stopPropagation()
+        console.log('google clicked')
+    //}, false) */
+
+    document.querySelector('#images').addEventListener('click', function(e){
+        console.log(e.target.tagName);
+
+        if (e.target.tagName === 'IMG'){
+            console.log(e.target.id);
+            let removeIt = e.target.parentNode
+            removeIt.remove()
+        }
+        
+    }, false) 
+
+    
+</script>
+
+</html>
