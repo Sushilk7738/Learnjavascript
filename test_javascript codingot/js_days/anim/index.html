@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <img onanimationend = "removeEffect()" id="picture" src="images/sreelela.avif" width="720" alt="srileela" >
+        <br>
+        <button onclick="addEffect('animate__animated animate__bounce')"">Effect 1</button>
+        <button onclick="addEffect('animate__animated animate__bounceIn')"">Effect 2</button>
+        <button onclick="addEffect('animate__animated animate__flash')"">Effect 3</button>
+        <button onclick="addEffect('animate__animated animate__swing')"">Effect 4</button>
+        <button onclick="addEffect('animate__animated animate__heartBeat')"">Effect 5</button>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div id="page">
+        <div id="content">
+            <img onanimationend = "removeEffect()"  id="picture" src="./images/sreelela.avif" alt="south-beauty"/>
+            <h1 id="brand">Animation.css</h1>
+        </div>
+        <div id="sidenav">
+            <h1 id="title">Attention Seeker</h1>
+            <div id="animation-name">
+                <button 
+                    ondblclick="addEffect('animate__animated animate__bounce animate__infinite')"  
+                    onclick ="addEffect('animate__animated animate__bounce')"
+                >bounce</button>
+                <button     
+                    ondblclick="addEffect('animate__animated animate__flash animate__infinite')"  
+                    onclick ="addEffect('animate__animated animate__flash')"
+                >flash</button>
+                <button     
+                    ondblclick="addEffect('animate__animated animate__pulse animate__infinite')"
+                    onclick ="addEffect('animate__animated animate__pulse')"
+                >pulse</button>
+                <button 
+                    onclick ="addEffect('animate__animated animate__rubberBand')"
+                    ondblclick="addEffect('animate__animated animate__rubberBand animate__infinite')"
+                >rubberband</button>
+                <button 
+                    onclick ="addEffect('animate__animated animate__swing')"
+                    ondblclick="addEffect('animate__animated animate__swing animate__infinite')"
+                >swing</button>
+                <button 
+                    ondblclick="addEffect('animate__animated animate__tada animate__infinite')" 
+                    onclick ="addEffect('animate__animated animate__tada')"
+                >tada</button>
+                <button
+                    ondblclick="addEffect('animate__animated animate__wobble animate__infinite')"
+                    onclick ="addEffect('animate__animated animate__wobble')"
+                >wobble</button>
+                <button     
+                    ondblclick="addEffect('animate__animated animate__jello animate__infinite')" 
+                    onclick ="addEffect('animate__animated animate__jello')"
+                >Jello</button>
+                <button 
+                    ondblclick="addEffect('animate__animated animate__heartBeat animate__infinite')"
+                    onclick ="addEffect('animate__animated animate__heartBeat')"
+                >Heartbeat</button>
+            </div>
+        </div>
+    </div>  
+    <script src="test.js"></script>
+</body>
+</html>

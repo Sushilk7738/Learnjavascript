@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    display: flex;
+    min-height: 100vh;
+    background: #fce5cd;
+}
+
+#content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#brand {
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#picture {
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#sidenav {
+    width: 20%;
+    background: #f7d7b5;
+    padding: 16px;
+}
+
+#title {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#animation-name {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#animation-name button {
+    border: none;
+    background: transparent;
+    font-size: 17px;
+    text-align: left;
+    padding: 4px 8px;
+}
+
+#animation-name button:hover {
+    background: red;
+    color: white;
+}
