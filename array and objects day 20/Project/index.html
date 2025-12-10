@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box">
+        <table id="student-table">
+            <tr>
+                <th>Student`s name</th>
+                <th>Course</th>
+                <th>Price</th>
+                <th>Discount</th>
+                <th>Date</th>
+            </tr>
+            
+        </table>
+
+        <form onsubmit="createStudent(event)">
+            <h1 id="title">Create a Student</h1>
+            <div id="form-group">
+                <label>Student`s name</label>
+                <input 
+                    required
+                    type="text"
+                    name="studentName"
+                    placeholder="Enter student name"
+                />
+            </div>
+            <div id="form-group">
+                <label>Course name</label>
+                <input 
+                    required
+                    type="text"
+                    name="courseName"
+                    placeholder="Enter course name"
+                />
+            </div>
+            <div id="form-group">
+                <label>Price</label>
+                <input 
+                    required
+                    type="number"
+                    name="price"
+                    placeholder="Price"
+                />
+            </div>
+            <div id="form-group">
+                <label>Discount</label>
+                <input 
+                    required
+                    type="number"
+                    name="discount"
+                    placeholder="Discount"
+                />
+            </div>
+            <div id="form-group">
+                <label>Date</label>
+                <input 
+                    required
+                    type="date"
+                    name="date"
+                />
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
